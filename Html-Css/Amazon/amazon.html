@@ -1,16 +1,209 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Amazon Videos</title>
-</head>
-<body>
- <header>
-    <div>
-        
-    </div>
+    <style>
+        body {
+            color: white;
+            margin: 0;
+            padding: 0;
+            font-family: Arial, Helvetica, sans-serif;
+        }
 
- </header>    h
+        header {
+color:  rgb(168, 168, 168);;
+            background-color: black;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        .list {
+            display: flex;
+            align-items: center;
+        }
+
+        .search {
+            display: flex;
+            align-items: center;
+            column-gap: 10px;
+        }
+
+        header .list ul {
+            display: flex;
+        }
+
+        ul li {
+            list-style: none;
+            margin-left: 20px;
+        }
+
+        #logo {
+            width: 150px;
+        }
+
+        #user {
+            width: 30px;
+        }
+
+        .container1 {
+            background-image: url(bg2.jpg);
+            height: 60vh;
+            padding: 40px;
+            /* background-position: right; */
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .container2 {
+            background-image: url(bg1.jpg);
+            height: 60vh;
+            background-repeat: no-repeat;
+            background-size: cover;
+            padding: 40px;
+        }
+
+        .container3 {
+            height: 70vh;
+            color: black;
+            display: flex;
+            justify-content: space-evenly;
+            padding: 20px 40px;
+        }
+
+        .c3img {
+            width: 40%;
+        }
+
+        .c3text {
+            width: 40%;
+        }
+
+        .c3img img {
+            width: 600px;
+        }
+
+        .container4 {
+            background-image: url(remote.jpg);
+            height: 60vh;
+            background-repeat: no-repeat;
+            background-size: cover;
+            padding: 40px;
+            display: flex;
+            justify-content: end;
+        }
+
+        .c4text1 {
+            width: 700px;
+        }
+
+        button {
+            font-weight: 600;
+            background-color: #0F79AF;
+            color: white;
+            padding: 10px 30px;
+            border: none;
+        }
+
+        footer {
+            height: 13vh;
+            background-color: rgb(35, 35, 35);
+            text-align: center;
+            padding: 10px;
+        }
+
+        footer img {
+            width: 80px;
+        }
+
+        footer a {
+            text-decoration: none;
+            color: #0F79AF;
+            margin-left: 15px;
+            font-size: small;
+        }
+
+        footer p {
+            font-size: smaller;
+            color: rgb(210, 210, 210);
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="list">
+            <img src="Logo-min.png" id="logo" alt="">
+            <nav>
+                <ul>
+                    <li>Home</li>
+                    <li>Store</li>
+                    <li>Live TV</li>
+                    <li>Categories</li>
+                </ul>
+            </nav>
+        </div>
+        <div class="search">
+            <span>Try for free &nbsp;</span>
+            <span>EN</span>
+            <img src="user (1).png" id="user" alt="">
+        </div>
+
+    </header>
+    <main>
+        <div class="container1">
+            <div class="c1text">
+                <h1>Welcome to Prime Video</h1>
+                <p>Watch the latest movies, TV shows, and award-winning Amazon Originals</p>
+                <button>Sign in to join Prime</button>
+            </div>
+        </div>
+        <div class="container2">
+            <div class="c2text1">
+                <h1>Movie rentals on Prime Video</h1>
+                <p>Early Access to new movies, before digital subscription</p>
+                <button>Rent now</button>
+            </div>
+        </div>
+        <div class="container3">
+            <div class="c3text">
+                <h1>Your favorite channels all in one place</h1>
+                <p>With Prime Video Channels, find shows and movies from your favorite channels all in one place. Enjoy
+                    with an add-on subscription to Channels of your choice </p>
+            </div>
+            <div class="c3img">
+                <img src="img2.png" alt="">
+            </div>
+        </div>
+        <div class="container4">
+            <div class="c4text1">
+                <div class="c4t1">
+                    <h1>Even better with Fire TV Stick</h1>
+                    <p>The biggest movies and TV shows are always better on a big screen. Simply plug in your Amazon
+                        Fire TV Stick and stream on any HDTV. Press the voice button on the remote and say the name of
+                        the title you want to watch to find it in seconds.</p>
+                    <button>Get Started</button>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="footertext">
+            <img src="logo.png" alt="">
+            <div>
+                <a href="">Terms and Privacy Notice</a>
+                <a href="">Send us feedback</a>
+                <a href="">Help</a>
+            </div>
+            <div>
+                <p>© 1996-2024, Amazon.com, Inc. or its affiliates</p>
+            </div>
+        </div>
+
+    </footer>
 </body>
+
 </html>
